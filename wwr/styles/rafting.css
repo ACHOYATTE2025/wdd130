@@ -12,7 +12,37 @@
 header{
   background-color: var(--primary-color);
   color: var(--accent2-color);
+  display: grid;
+  grid-template-rows: 0px 150px 0px 0px;
+  position: relative;
+  
+  
 }
+
+.logo{
+  margin-left: 00px;
+
+}
+
+.nava{
+  margin-left: 170px;
+  margin-top: 45px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items:center;
+  margin-left: 55px;
+  font-size:larger;
+
+}
+
+
+
+
 
 *{
   margin: 0;
@@ -47,6 +77,9 @@ nav,p,article,section{
 
 .hero{
   position: relative;
+  display: grid;
+  grid-template-rows: 1fr;
+
 }
 
 .hero img{
@@ -69,4 +102,81 @@ h1{
 .hero article img{
   float: right;
   width: 125px;
+  margin-top: 18px;
+
 }
+article{
+
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+
+}
+
+section{
+ display: grid;
+ justify-content: center;
+ align-items: center;
+  }
+
+.history img{
+position:static;
+float:left;
+margin-left: 300px;
+margin-bottom: 100px;
+padding: 5px;
+
+}
+.history p{
+ margin: 20px;
+ margin-top: -10px;
+}
+
+.loremo{
+  
+  float: left;
+  margin-right: 100px;
+  margin-bottom: -60px;
+}
+section h2{
+  text-align: center;
+}
+.await{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0px;
+
+  
+}
+.await img{
+  width: 150px;
+  margin-top: 100px;
+  margin: 10px;
+  border: 1px solid grey;
+  box-shadow: rgb(157, 174, 132) ;
+  opacity: 10;
+
+}
+.await h2{
+  text-align: center;
+  display: flex;
+  margin-top: -25px;
+  position: absolute;
+}
+
+footer{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+footer img{
+  margin: 15px ;
+}
+
+
+
