@@ -6,18 +6,27 @@
 }
 
 .fox{
+  position: relative;
   display: grid;
   grid-gap: 1rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
- 
+  margin-top: 20px;
+
 }
 
 
-h2{
-  text-align: center;
+.hh{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-left: 500px;
+  margin-bottom: 530px;
+  color: #5052e9;
+ 
 }
 
 
