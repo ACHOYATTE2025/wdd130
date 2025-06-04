@@ -149,7 +149,7 @@ section h2{
   margin: 10px;
   border: 1px solid grey;
   box-shadow: rgb(157, 174, 132) ;
-  opacity: 10;
+  opacity: 5;
 
 }
 .await h2{
@@ -165,11 +165,24 @@ footer{
  justify-content: space-around;
  align-items: center;
  flex-wrap: wrap;
+ margin-top: -15px;
+ padding-bottom: -50px;
 }
 
 footer img{
   margin: 15px ;
 }
 
+footer nav{
+  margin: -30px;
+}
 
 .contact{border: 1px solid var(--accent2-color )}
+
+iframe{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 00px;
+}
