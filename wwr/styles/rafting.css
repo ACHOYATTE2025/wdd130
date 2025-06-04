@@ -185,4 +185,8 @@ iframe{
   align-items: center;
   margin-top: 20px;
   margin-left: 00px;
+  width:840px;
+   height:400px;
+  border:0;
+  padding:"lazy";
 }
