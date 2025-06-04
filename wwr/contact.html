@@ -2,6 +2,9 @@
 <html lang="en-Us">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content=" Rafting Project: About Us Page">
+  <meta name="author" content="ACHO YATTE DEIVY CONSTANT">
    <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -31,12 +34,12 @@
         <table>
           <tr>
             <td><label for="Fullname">FullName</label></td>
-            <td><input type="text" id="FullName" value="FullName" placeholder="Enter FullName"/></td>
+            <td><input type="text" id="FullName" value="FullName" name="FullName" placeholder="Enter FullName"/></td>
           </tr>
-          <td><label for="email">Email</label></td><td><input type="email" id="email" value="email" placeholder="Enter email"></td>
+          <td><label for="email">Email</label></td><td><input type="email" id="email" name="email"  value="email" placeholder="Enter email"></td>
         </table>
       </fieldset>
-      <input type="radio" id="general_inquiry" name="message_purpose" value="General Inquiry">
+      <input type="radio" id="general_inquiry" name="message_purpose"    value="General Inquiry">
       <label for="general_inquiry">General Inquiry</label><br>
 
       <input type="radio" id="reservation_question" name="message_purpose" value="Reservation Question">
@@ -48,7 +51,7 @@
       <input type="checkbox" id="newsletter" name="newsletter" value="Subscribed">
       <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
 
-      <input type="submit" value="Submit">
+      <button type="submit" value="Submit" name="submit">Submit</button>
 
     </form>
     </div>
