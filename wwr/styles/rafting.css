@@ -47,6 +47,7 @@ nav {
 nav a{
   color: var(--accent2-color);
 
+  font-weight: bolder;
 }
 
 
