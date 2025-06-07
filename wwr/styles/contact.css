@@ -46,7 +46,7 @@ nav {
 
 nav a{
   color: var(--accent2-color);
-   font-weight: bolder;
+  font-weight: bolder;
 
 }
 
@@ -62,7 +62,7 @@ nav a{
 body{
   font-family: var(--body-font);
   color: var(--accent1-color);
-   display: grid;
+  display: grid;
   justify-content: center;
   align-items: center;
 
@@ -72,7 +72,7 @@ body{
 header,main,footer{
   width: 840px;
   margin: 0 auto;
- 
+
 }
 
 
@@ -81,8 +81,8 @@ header,main,footer{
   border: 1px solid var(--accent2-color );
   padding: 50px;
   margin: 0px;
-  height: 330px;
- 
+  height: 480px;
+
   box-shadow: 10px 20px 20px 10px  var(--primary-color);
   opacity: 0.9;
 
@@ -107,7 +107,7 @@ button{
   margin: 5px;
   height: 50px;
   margin-left: 230px;
-  margin-top: 30px;
+  margin-top: 10px;
   font-weight: 900;
   color: var(--accent2-color);
 }
@@ -123,8 +123,12 @@ table input{
   width: 450px;
   margin: 15px;
   font-size: larger;
-  border-radius: 5%;
-  color: var(--accent2-color);
+ 
+  
+}
+
+textarea{
+ border: 1px solid var(--accent2-color);
 }
 
 h1,h2{
