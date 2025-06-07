@@ -62,11 +62,17 @@ nav a{
 body{
   font-family: var(--body-font);
   color: var(--accent1-color);
+   display: grid;
+  justify-content: center;
+  align-items: center;
+
+
   }
 
 header,main,footer{
   width: 840px;
   margin: 0 auto;
+ 
 }
 
 
@@ -296,3 +302,15 @@ footer p{
   float: left;
 
 }
+
+@media screen and (min-width: 768px) {
+  body {
+   width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 10px;
+  }
+}
+
+  
+
