@@ -299,15 +299,15 @@ footer p{
 
 
 /* Media Query pour les tablettes (max 900px) */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   *{
-    flex: 1 1 45%;
+    width: 900px;;
   }
 }
 
 /* Media Query pour les téléphones (max 600px) */
 @media screen and (max-width: 600px) {
   * {
-    flex: 1 1 100%;
+   width:500px ;
   }
 }
