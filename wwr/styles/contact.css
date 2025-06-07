@@ -293,21 +293,6 @@ footer p{
   justify-content: center;
   margin-top: -2px;
   margin-bottom: -5px;
-  float: left; 
+  float: left;
 
-}
-
-
-/* Media Query pour les tablettes (max 900px) */
-@media screen and (max-width: 1000px) {
-  *{
-    width: 900px;;
-  }
-}
-
-/* Media Query pour les téléphones (max 600px) */
-@media screen and (max-width: 600px) {
-  * {
-   width:500px ;
-  }
 }
