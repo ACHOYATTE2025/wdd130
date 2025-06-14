@@ -5,7 +5,7 @@
   --accent1-color : #ADB9E3;
   --accent2-color : #A379C9;
   --heading-font : "Roboto";
-  --body-font : "Arial".;
+  --body-font : "Arial", sans-serif;
 
 }
 
@@ -38,7 +38,7 @@ nav {
   margin-left: 55px;
   font-size:larger;
   font-weight: bolder;
-  font-style: var(--heading-font);
+  font-family: var(--heading-font);
 
 
 }
@@ -189,7 +189,7 @@ section h2{
   margin: 10px;
   border: 1px solid var(--secondary-color);
   box-shadow: rgb(157, 174, 132) ;
-  opacity: 10;
+  opacity: 1;
 
 }
 .await h2{
