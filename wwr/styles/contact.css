@@ -221,7 +221,8 @@ section h2{
   margin-top: 100px;
   margin: 10px;
   border: 1px solid grey;
-  box-shadow: rgb(157, 174, 132) ;
+  box-shadow: 2px 2px 8px rgb(157, 174, 132);
+
   opacity: 5;
 
 }
