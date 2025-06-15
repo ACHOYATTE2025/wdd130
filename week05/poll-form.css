@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.fox{
+  position: relative;
+  display: grid;
+  grid-gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+
+.hh{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-left: 500px;
+  margin-bottom: 530px;
+  color: #5052e9;
+ 
+}
+
+
+form{
+  display: grid;
+  grid-gap: 1rem;
+  border: 1px solid #5052e9;
+  width: 400px;
+  margin: 35px;
+  padding: 20px;
+  background-color: #cccde3;
+  
+}
+
+table{
+  margin-left: 100px;
+  margin-bottom: 20px;
+
+}
+
+
+.form-item{
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+  
+}
+
+legend{
+  font-size: larger;
+  color: #5052e9;
+}
+
+.column1{
+ 
+ margin-bottom: -70px;
+
+
+}
+
+#field{
+  padding-bottom: 10px;
+}
+
+
+.column3{
+  padding-left:0px;
+  margin-left: 60px;
+}
+
+select{
+  position:absolute;
+  float: right;
+  margin-left: 13px ;
+  margin-bottom: 500px;
+  
+}
+
+bro{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1px;
+}
+
+.pet{
+  margin-left: 90px;
+}
+
+textarea{
+  width: 325px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#feed{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+button{
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 160px;
+  color:white;
+  background-color: blue;
+  border-radius: 10%;
+}

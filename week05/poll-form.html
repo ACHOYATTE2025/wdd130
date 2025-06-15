@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="poll-form.css"/>
+  <title>poll-form</title>
+</head>
+<body>
+  <main>
+    <div class="fox">
+      <div class="hh">
+        <h2>WDD130|HTML Form - User Poll</h2>
+      </div>
+    <form >
+      <div class="f1">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <table>
+            <tr>
+              <div class="form-item column1">
+                <td><label for="Fullname">Fullname</label></td>
+                <td><input type="text" id="Fullname" name="Fullname" placeholder="Enter Fullname"/></td>
+              </div>
+            </tr>
+            <tr>
+              <div class="form-item column2">
+                <td><label for="usermail">Email</label></td>
+                <td> <input type="email" id="usermail" name="usermail" placeholder="Enter email"/></td>
+            </tr>
+          </table>
+        </fieldset>
+      </div>
+      <fieldset id="field">
+          <legend>Questions</legend>
+            <div class="form-item column3">
+              <label for="browser" id="bro">Your favorite internet browser</label>
+              <select id="browser" name="browser" >
+                <option value="chrome">chrome</option>
+                <option value="opera">opera</option>
+                <option value="firefox">firefox</option>
+                <option value="safari">safari</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+              <br/>
+              <div class="pet">
+                <label for="pet">Have you a household pet?</label>
+                <input type="checkbox" id="pet" name="pet" >
+              </div>
+                <br/>
+              <label for="feedback" id="feed">List places you have lived</label>
+              <br/>
+              <textarea name="feedback" id="feedback" rows="4" placeholder="stillwater floride,Amsterdam,Abidjan Ivory Coast"></textarea>
+            
+      </fieldset>
+      
+      
+      <button type="submit"  >Submit Poll</button>
+    </form>
+    </div>
+  </main>
+</body>
+</html>
